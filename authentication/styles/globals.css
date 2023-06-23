@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  /* primary */
+  /* grey */
+  --white: #fff;
+  --dark-purple: #210b2c;
+  --medium-purple: #55286f;
+  --light-purple: #bc96e6;
+  --border-radius: 0.25em;
+  --max-width: 72.5rem;
+  --letter-spacing: 1px;
+  --transition: ease-in 0.3s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: var(--light-purple);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.error,
+.success {
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.error {
+  color: tomato;
+}
+
+.success {
+  color: green;
+}
